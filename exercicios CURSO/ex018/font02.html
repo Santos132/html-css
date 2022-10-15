@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+        <style>
+            @font-face {
+                font-family: 'Million';
+                src: url('fonte/Amattera\ Million\ Italic.otf') format('opentype'), url('fonte/Amattera\ Million\ Italic.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+
+                /*
+                tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                -svg
+                */
+            }
+            body{
+                font-family: 'Million',Times, serif;
+            }
+            h1{
+                font-family: 'Million' ,Times, serif;
+                 font-size: 3em;
+                 font-weight: normal;
+            }
+        </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi inventore ullam commodi fuga, minus obcaecati eaque blanditiis saepe, quas assumenda nihil reprehenderit, exercitationem ea! Quod iste animi velit ipsum.</p>
+</body>
+</html>
