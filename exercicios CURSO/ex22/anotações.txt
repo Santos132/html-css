@@ -1,0 +1,2 @@
+repeat x = deitado
+repeat y = em pé
